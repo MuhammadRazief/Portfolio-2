@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Razief</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#certificate" class="nav__link">Certificate</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Razief</span><br>Backend Developer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/muhammad-razief-biladul-jamal-tajudin-8922452a5/" class="home__social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.instagram.com/raziief2/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/MuhammadRazief" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="50" y="60" href="./img/ss.jpg" width="480" height="400"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About </h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./img/sat.jpg" alt="">
+                </div>
+                <div>
+                    <p class="about__text">I am Muhammad Razief Biladul Jamal Tajudin, I am a student from SMK Wikrama Bogor majoring in Software and Game Development (PPLG). Currently I am honing my skills in the Backend Developer field to deepen my understanding and ability in managing servers, databases and application logic which are the main foundations in the world of software development</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio__container bd-grid">
+                <a class="portfolio__img">
+                    <img src="./img/apotek.png" alt="">
+                    <h4 class="judul1">Apotek Website</h4>
+                    <p class="isi1">LARAVEL</p>
+                </a>
+                <a class="portfolio__img">
+                    <img src="./img/vue.jpg" alt="">
+                    <h4 class="judul2">Website Vue (Landing Page)</h4>
+                    <p class="isi2">VUE.JS</p>
+                </a>
+                <a class="portfolio__img">
+                    <img src="./img/oop.jpg" alt="">
+                    <h4 class="judul2">Rental Motor</h4>
+                    <p class="isi2">OOP</p>
+                </a>
+                <a class="portfolio__img">
+                    <img src="./img/mvc.jpg" alt="">
+                    <h4 class="judul2">Peminjaman Barang</h4>
+                    <p class="isi2">MVC</p>
+                </a>
+                <a class="portfolio__img">
+                    <img src="./img/rzf.jpg" alt="">
+                    <h4 class="judul2">Portfolio</h4>
+                    <p class="isi2">HTML</p>
+                </a>
+                <a class="portfolio__img">
+                    <img src="./img/api.jpg" alt="">
+                    <h4 class="judul2">Consume API with ReactJS</h4>
+                    <p class="isi2">REACTJS WITH LUMEN</p>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CERTIFICATE =====-->
+        <section class="certificate section" id="certificate">
+            <h2 class="section-title">Certificate</h2>
+            <div class="certificate__container bd-grid">
+                <a class="certificate__img">
+                    <img src="./img/sert.png" alt="">
+                    <h4 class="judul2">Certificate</h4>
+                    <p class="isi2">Meneliti Karir Sebagai Software Developer</p>
+                </a>
+                <a class="certificate__img">
+                    <img src="./img/certi.jpg" alt="">
+                    <h4 class="judul2">Certificate</h4>
+                    <p class="isi2">Pengenalan Data Science Dengan Python</p>
+                </a>
+                <a class="certificate__img">
+                    <img src="./img/ceri1.jpg" alt="">
+                    <h4 class="judul2">Certificate</h4>
+                    <p class="isi2">Belajar Dasar Structured Query Language(SQL)</p>
+                </a>
+                <a class="certificate__img">
+                    <img src="./img/certi1.jpg" alt="">
+                    <h4 class="judul2">Certificate</h4>
+                    <p class="isi2">Belajar Dasar Data Science</p>
+                </a>
+            </div>
+        </section>
+        
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <footer class="contact">
+                    <p class="contact__title">Razief</p>
+                    <div class="contact__social">
+                        <a href="https://www.linkedin.com/in/muhammad-razief-biladul-jamal-tajudin-8922452a5/" class="contact__icon"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href="https://www.instagram.com/raziief2/" class="contact__icon"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://github.com/MuhammadRazief" class="contact__icon"><i class='bx bxl-github' ></i></a>
+                    </div>
+                    <p class="contact__copy">Dibuat dengan Menggunakan Html Css Javascript</p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script>
+        /*===== MENU SHOW =====*/ 
+        const showMenu = (toggleId, navId) =>{
+            const toggle = document.getElementById(toggleId),
+            nav = document.getElementById(navId)
+
+            if(toggle && nav){
+                toggle.addEventListener('click', ()=>{
+                    nav.classList.toggle('show')
+                })
+            }
+        }
+        showMenu('nav-toggle','nav-menu')
+
+        /*==================== REMOVE MENU MOBILE ====================*/
+        const navLink = document.querySelectorAll('.nav__link')
+
+        function linkAction(){
+            const navMenu = document.getElementById('nav-menu')
+            // When we click on each nav__link, we remove the show-menu class
+            navMenu.classList.remove('show')
+        }
+        navLink.forEach(n => n.addEventListener('click', linkAction))
+
+        /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+        const sections = document.querySelectorAll('section[id]')
+
+        function scrollActive(){
+            const scrollY = window.pageYOffset
+
+            sections.forEach(current =>{
+                const sectionHeight = current.offsetHeight
+                const sectionTop = current.offsetTop - 50;
+                sectionId = current.getAttribute('id')
+
+                if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+                }else{
+                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
+                }
+            })
+        }
+        window.addEventListener('scroll', scrollActive)
+
+        /*===== SCROLL REVEAL ANIMATION =====*/
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2000,
+            delay: 200,
+        //     reset: true
+        });
+
+        sr.reveal('.home__data, .about__img',{}); 
+        sr.reveal('.home__img, .about__subtitle, .about__text,',{delay: 400}); 
+        sr.reveal('.home__social-icon',{ interval: 200}); 
+        sr.reveal('.portfolio__img, .contact__input',{interval: 200});
+        sr.reveal('.certificate__img',{interval: 200}); 
+    </script>
+</body>
+</html>
